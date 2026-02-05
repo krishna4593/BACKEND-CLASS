@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body,#root{
+  height:100%;
+  width:100%
+}
+html{
+  background-color: #212121;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.notes{
+  display:flex;
+  gap:1rem;
+  padding-inline:3rem;
+  padding-block:1rem
+}
+
+.note{
+  background-color: #494949;
+  color: whitesmoke;
+  padding:1rem;
+  border-radius:0.8rem
+}
+form{
+  padding: 1rem;
+  padding-left: 3rem;
+  display:flex;
+  gap:1rem
+}
+input{
+  padding:0.5rem;
+}
+button{
+  background-color: royalblue;
+  border-radius: 1rem;
+  padding:0.5rem;
+  color:white
+}
